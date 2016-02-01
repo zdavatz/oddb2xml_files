@@ -1,0 +1,2453 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+	xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+	xmlns:rs='urn:schemas-microsoft-com:rowset'
+	xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+	<s:ElementType name='row' content='eltOnly' rs:updatable='true'>
+		<s:AttributeType name='ATCCode' rs:number='1' rs:writeunknown='true' rs:basecatalog='ATC' rs:basetable='#t1'
+			 rs:basecolumn='ATCCode'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='10' rs:maybenull='false'/>
+		</s:AttributeType>
+		<s:AttributeType name='DDD' rs:number='2' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='ATC' rs:basetable='#t1'
+			 rs:basecolumn='DDD'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='20'/>
+		</s:AttributeType>
+		<s:AttributeType name='UnitType' rs:number='3' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='ATC'
+			 rs:basetable='#t1' rs:basecolumn='UnitType'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='AdmCode' rs:number='4' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='ATC'
+			 rs:basetable='#t1' rs:basecolumn='AdmCode'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:AttributeType name='DDDComment' rs:number='5' rs:nullable='true' rs:writeunknown='true' rs:basecatalog='ATC'
+			 rs:basetable='#t1' rs:basecolumn='DDDComment'>
+			<s:datatype dt:type='string' rs:dbtype='str' dt:maxLength='255'/>
+		</s:AttributeType>
+		<s:extends type='rs:rowbase'/>
+	</s:ElementType>
+</s:Schema>
+<rs:data>
+	<z:row ATCCode='A01AA01' DDD='1.1' UnitType='mg' AdmCode='O' DDDComment='0.5 mg fluoride'/>
+	<z:row ATCCode='A01AA03' DDD='1.1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A01AB02' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A01AB03' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A01AB04' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A01AB05' DDD='0.18' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A01AB06' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A01AB07' DDD='80' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A01AB09' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A01AB10' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A01AB23' DDD='1' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A01AD02' DDD='9' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A02AA04' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02AB02' DDD='5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02AB04' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02AC02' DDD='6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BA01' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BA01' DDD='0.8' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A02BA02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BA02' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A02BA03' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A02BA03' DDD='40' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A02BA04' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BA04' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A02BA06' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BA07' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BA08' DDD='20' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A02BB01' DDD='0.8' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A02BB02' DDD='70' UnitType='mcg' AdmCode='O'/>
+	<z:row ATCCode='A02BC01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A02BC01' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A02BC02' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A02BC02' DDD='40' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A02BC03' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A02BC04' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A02BC05' DDD='30' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A02BC05' DDD='30' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A02BC06' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A02BX01' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BX02' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BX03' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BX03' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A02BX05' DDD='0.48' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A02BX06' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AA01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AA03' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AA03' DDD='0.2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='A03AA04' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AA05' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A03AA07' DDD='80' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AA07' DDD='80' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03AB01' DDD='70' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AB02' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AB02' DDD='3' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03AB02' DDD='3' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='A03AB03' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AB04' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AB05' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AB05' DDD='60' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03AB07' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AB08' DDD='0.125' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AB09' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AB10' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AB11' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AB12' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AB13' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AB14' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AB16' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AD01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AD01' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A03AD02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AD02' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A03AD30' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AE01' DDD='1' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A03AX03' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AX04' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AX13' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03AX30' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03AX30' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03BA01' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03BA01' DDD='1.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03BA03' DDD='1.2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03BA04' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03BB01' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03BB01' DDD='60' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03BB01' DDD='60' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='A03BB02' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03BB03' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03BB03' DDD='12' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03BB04' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03FA01' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03FA01' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03FA01' DDD='30' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='A03FA02' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03FA02' DDD='30' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='A03FA03' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03FA03' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03FA03' DDD='0.12' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='A03FA04' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A03FA04' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A03FA05' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A03FA05' DDD='0.15' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A04AA01' DDD='16' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A04AA01' DDD='16' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A04AA01' DDD='16' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='A04AA02' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A04AA02' DDD='3' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A04AA02' DDD='3.1' UnitType='mg' AdmCode='TD'/>
+	<z:row ATCCode='A04AA03' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A04AA03' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A04AA04' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A04AA04' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A04AA05' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A04AA05' DDD='0.25' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A04AD05' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A04AD05' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A04AD12' DDD='95' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A04AD12' DDD='95' UnitType='mg' AdmCode='P' DDDComment='expressed as fosaprepitant '/>
+	<z:row ATCCode='A05AA02' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AA01' DDD='15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AA02' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AB01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A06AB02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A06AB02' DDD='10' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='A06AB03' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A06AB04' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AB05' DDD='20' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AB08' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A06AB09' DDD='0.12' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A06AC01' DDD='7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AC02' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AC03' DDD='8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AC06' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AC07' DDD='10' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AC08' DDD='2.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AD01' DDD='7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AD02' DDD='7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AD04' DDD='7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AD11' DDD='6.7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AD12' DDD='10' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AD15' DDD='10' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AD17' DDD='50' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AD18' DDD='10' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A06AH01' DDD='6' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A06AX04' DDD='0.29' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A06AX05' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A06AX06' DDD='12' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A07AA01' DDD='5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AA02' DDD='1.5' UnitType='MU' AdmCode='O'/>
+	<z:row ATCCode='A07AA03' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AA05' DDD='3' UnitType='MU' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A07AA06' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AA07' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AA09' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AA11' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AA12' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AB02' DDD='9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AB03' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AC01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07AX03' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07BA01' DDD='5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07BC05' DDD='9' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A07DA01' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A07DA02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07DA03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A07DA05' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A07EA06' DDD='9' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A07EB01' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07EC01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07EC01' DDD='2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='A07EC02' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07EC02' DDD='1.5' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='A07EC03' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07EC04' DDD='6.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07FA02' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A07XA01' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A08AA01' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A08AA02' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A08AA03' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A08AA04' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A08AA05' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A08AA10' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A08AB01' DDD='0.36' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A08AX01' DDD='20' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A09AB01' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A09AB02' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A09AB04' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10AB01' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AB02' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AB03' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AB04' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AB05' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AB06' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AB30' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AC01' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AC02' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AC03' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AC04' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AC30' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AD01' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AD02' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AD03' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AD04' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AD05' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AD06' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AD30' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AE01' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AE02' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AE03' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AE04' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AE05' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AE06' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AE30' DDD='40' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A10AF01' DDD='15' UnitType='mg' AdmCode='Inhal' DDDComment=''/>
+	<z:row ATCCode='A10BA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BA02' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BA03' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BB01' DDD='7' UnitType='mg' AdmCode='O' DDDComment='microcryst.substance'/>
+	<z:row ATCCode='A10BB01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BB02' DDD='0.375' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BB03' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BB04' DDD='38' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BB05' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BB06' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BB07' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BB08' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BB09' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BB12' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BB31' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BC01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BF01' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BF02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BG01' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BG02' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BG03' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BH01' DDD='0.1' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A10BH02' DDD='0.1' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A10BH03' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BH04' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BH05' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BH06' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BX02' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BX03' DDD='0.36' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A10BX04' DDD='0.286' UnitType='mg' AdmCode='P' DDDComment='depot inj'/>
+	<z:row ATCCode='A10BX04' DDD='15' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A10BX06' DDD='0.45' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A10BX07' DDD='1.2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A10BX08' DDD='30' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A10BX09' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BX10' DDD='20' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='A10BX11' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A10BX12' DDD='17.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A10BX13' DDD='5.7' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A10BX14' DDD='0.16' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A11CA01' DDD='50' UnitType='TU' AdmCode='O'/>
+	<z:row ATCCode='A11CA01' DDD='50' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='A11CC02' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A11CC03' DDD='1' UnitType='mcg' AdmCode='O'/>
+	<z:row ATCCode='A11CC03' DDD='1' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='A11CC04' DDD='1' UnitType='mcg' AdmCode='O'/>
+	<z:row ATCCode='A11CC04' DDD='1' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='A11CC05' DDD='20' UnitType='mcg' AdmCode='O'/>
+	<z:row ATCCode='A11DA01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A11DA01' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A11GA01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A11GA01' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A11HA01' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A11HA02' DDD='0.16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A11HA02' DDD='0.16' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A11HA03' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A11HA03' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A11HA08' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='expressed as tocopherol'/>
+	<z:row ATCCode='A12AA01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12AA02' DDD='2.75' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A12AA03' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12AA03' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A12AA04' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12AA05' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12AA06' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12AA07' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A12AA09' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12AA10' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12AA20' DDD='0.5' UnitType='g' AdmCode='O' DDDComment='Ca2+'/>
+	<z:row ATCCode='A12AA30' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A12BA01' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12BA02' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12BA03' DDD='7.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12BA04' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12CA01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12CB01' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12CC01' DDD='2.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12CC01' DDD='0.8' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A12CC02' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12CC02' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A12CC03' DDD='5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12CC04' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A12CD01' DDD='88' UnitType='mg' AdmCode='O' DDDComment='40 mg fluoride'/>
+	<z:row ATCCode='A12CD02' DDD='0.152' UnitType='g' AdmCode='O' DDDComment='20 mg fluoride'/>
+	<z:row ATCCode='A12CE01' DDD='0.2' UnitType='mg' AdmCode='O' DDDComment='Se'/>
+	<z:row ATCCode='A12CE02' DDD='0.2' UnitType='mg' AdmCode='O' DDDComment='Se '/>
+	<z:row ATCCode='A12CE02' DDD='0.2' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A14AA02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A14AA02' DDD='3.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A14AA03' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A14AA04' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A14AA04' DDD='7' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A14AA05' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A14AB01' DDD='2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A14AB02' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='A16AA01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A16AA01' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A16AA04' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A16AA05' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A16AA06' DDD='6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A16AB02' DDD='300' UnitType='U' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A16AB03' DDD='1' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A16AB04' DDD='5' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A16AB05' DDD='1' UnitType='TU' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A16AB06' DDD='68' UnitType='TU' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A16AB07' DDD='0.1' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='A16AB10' DDD='300' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='A16AX01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='A16AX01' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='A16AX03' DDD='20' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A16AX04' DDD='20' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A16AX05' DDD='0.15' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A16AX06' DDD='0.3' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='A16AX08' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='A16AX10' DDD='0.168' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AA02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AA03' DDD='7.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B01AA03' DDD='7.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='B01AA04' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B01AA07' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B01AA08' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AB01' DDD='10' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B01AB02' DDD='2.1' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B01AB04' DDD='2.5' UnitType='TU' AdmCode='P' DDDComment='anti Xa'/>
+	<z:row ATCCode='B01AB05' DDD='2' UnitType='TU' AdmCode='P' DDDComment='anti Xa'/>
+	<z:row ATCCode='B01AB06' DDD='2.85' UnitType='TU' AdmCode='P' DDDComment='anti Xa'/>
+	<z:row ATCCode='B01AB07' DDD='3.2' UnitType='TU' AdmCode='P' DDDComment='anti Xa'/>
+	<z:row ATCCode='B01AB08' DDD='1.43' UnitType='TU' AdmCode='P' DDDComment='anti Xa'/>
+	<z:row ATCCode='B01AB09' DDD='1.5' UnitType='TU' AdmCode='P' DDDComment='anti Xa'/>
+	<z:row ATCCode='B01AB10' DDD='3.5' UnitType='TU' AdmCode='P' DDDComment='anti Xa'/>
+	<z:row ATCCode='B01AB11' DDD='500' UnitType='LSU' AdmCode='O' DDDComment='LSU = lipoprotein lipase releasing units'/>
+	<z:row ATCCode='B01AB11' DDD='500' UnitType='LSU' AdmCode='P' DDDComment='LSU = lipoprotein lipase releasing units'/>
+	<z:row ATCCode='B01AB12' DDD='2.5' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B01AC04' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B01AC05' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AC06' DDD='1' UnitType='tablet' AdmCode='O' DDDComment='Independent of strength'/>
+	<z:row ATCCode='B01AC07' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AC07' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='B01AC08' DDD='1' UnitType='tablet' AdmCode='O'/>
+	<z:row ATCCode='B01AC11' DDD='0.15' UnitType='mg' AdmCode='Inhal' DDDComment=''/>
+	<z:row ATCCode='B01AC11' DDD='50' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='B01AC13' DDD='25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='B01AC16' DDD='0.2' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B01AC17' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='B01AC18' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AC21' DDD='4.3' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B01AC22' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='B01AC23' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AC24' DDD='0.18' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B01AD01' DDD='1.5' UnitType='MU' AdmCode='P'/>
+	<z:row ATCCode='B01AD02' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='B01AD03' DDD='30' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='B01AD04' DDD='3' UnitType='MU' AdmCode='P'/>
+	<z:row ATCCode='B01AD07' DDD='20' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='B01AD10' DDD='40' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B01AD11' DDD='40' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B01AE01' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='B01AE02' DDD='0.25' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='B01AE03' DDD='0.2' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B01AE04' DDD='6' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B01AE05' DDD='48' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='B01AE06' DDD='0.25' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B01AE07' DDD='0.3' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='B01AF01' DDD='20' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='B01AF02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B01AX05' DDD='2.5' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B02AA01' DDD='16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B02AA01' DDD='16' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='B02AA02' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B02AA02' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='B02AA03' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='B02AB01' DDD='500' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B02AB02' DDD='0.6' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B02BA01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B02BA01' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='B02BA02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B02BA02' DDD='2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='B02BB01' DDD='5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='B02BD01' DDD='350' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='B02BD02' DDD='500' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='B02BD03' DDD='10' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B02BD04' DDD='350' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='B02BD05' DDD='6' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B02BD06' DDD='7.2' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B02BD07' DDD='3.5' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B02BD08' DDD='2500' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B02BD09' DDD='450' UnitType='U' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B02BD10' DDD='6' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B02BD11' DDD='2.5' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B02BX04' DDD='30' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B02BX05' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B03AA01' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA02' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA03' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA04' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA05' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA06' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA07' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA08' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA09' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA10' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AA11' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='Fe2+'/>
+	<z:row ATCCode='B03AB01' DDD='0.75' UnitType='g' AdmCode='O' DDDComment='Fe3+'/>
+	<z:row ATCCode='B03AB02' DDD='0.11' UnitType='g' AdmCode='O' DDDComment='Fe3+'/>
+	<z:row ATCCode='B03AB03' DDD='0.17' UnitType='g' AdmCode='O' DDDComment='Fe3+'/>
+	<z:row ATCCode='B03AB05' DDD='90' UnitType='mg' AdmCode='O' DDDComment='Fe3+'/>
+	<z:row ATCCode='B03AC' DDD='0.1' UnitType='g' AdmCode='P' DDDComment='Fe'/>
+	<z:row ATCCode='B03BA01' DDD='70' UnitType='mcg' AdmCode='N' DDDComment=''/>
+	<z:row ATCCode='B03BA01' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='B03BA01' DDD='20' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='B03BA02' DDD='20' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='B03BA03' DDD='20' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='B03BA05' DDD='1.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='B03BA05' DDD='0.2' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B03BB01' DDD='0.4' UnitType='mg' AdmCode='O' DDDComment='prophylactic dose'/>
+	<z:row ATCCode='B03BB01' DDD='10' UnitType='mg' AdmCode='P' DDDComment='therapeutic dose'/>
+	<z:row ATCCode='B03XA01' DDD='1' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B03XA02' DDD='4.5' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B03XA03' DDD='4' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B06AC01' DDD='1.4' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='B06AC02' DDD='30' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='B06AC04' DDD='3.5' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='C01AA01' DDD='0.2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01AA02' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01AA03' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01AA04' DDD='0.1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01AA04' DDD='0.1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01AA05' DDD='0.25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01AA05' DDD='0.25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01AA06' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01AA06' DDD='1' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='C01AA07' DDD='1' UnitType='mg' AdmCode='P' DDDComment='Acute treatment'/>
+	<z:row ATCCode='C01AA08' DDD='0.2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01AA08' DDD='0.2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01AB01' DDD='0.75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01AC01' DDD='0.25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01AC03' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01BA01' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BA02' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BA02' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BA03' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BA03' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BA04' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BA05' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BA08' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01BA12' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BB01' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BB02' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BB02' DDD='0.8' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BB03' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BB03' DDD='1.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BB04' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BB04' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BC03' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BC03' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BC04' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BC04' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BC07' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BC08' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BD01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BD01' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01BD05' DDD='1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01BD07' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BG01' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01BG11' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01CA01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01CA01' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA02' DDD='90' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01CA02' DDD='90' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA03' DDD='6' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA04' DDD='0.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01CA05' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01CA06' DDD='4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA07' DDD='0.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01CA08' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01CA08' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01CA09' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA10' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA11' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA13' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA14' DDD='0.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01CA15' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01CA16' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01CA17' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01CA24' DDD='0.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CA25' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01CA26' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CE01' DDD='0.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01CE02' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CE03' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01CX06' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01CX07' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01CX08' DDD='11' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='C01DA02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DA02' DDD='2.5' UnitType='mg' AdmCode='oral aerosol'/>
+	<z:row ATCCode='C01DA02' DDD='2.5' UnitType='mg' AdmCode='SL'/>
+	<z:row ATCCode='C01DA02' DDD='5' UnitType='mg' AdmCode='TD'/>
+	<z:row ATCCode='C01DA05' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01DA07' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DA08' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DA08' DDD='20' UnitType='mg' AdmCode='oral aerosol'/>
+	<z:row ATCCode='C01DA08' DDD='20' UnitType='mg' AdmCode='SL'/>
+	<z:row ATCCode='C01DA08' DDD='0.1' UnitType='g' AdmCode='TD'/>
+	<z:row ATCCode='C01DA09' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DA13' DDD='90' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DA14' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DX02' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01DX03' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DX03' DDD='40' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01DX04' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01DX07' DDD='0.225' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01DX08' DDD='0.45' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01DX08' DDD='0.45' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C01DX09' DDD='90' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DX10' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01DX13' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01DX14' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01DX16' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01DX19' DDD='1.5' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='C01EA01' DDD='0.5' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='C01EB02' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C01EB10' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C01EB15' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C01EB16' DDD='30' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='C01EB17' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C01EB18' DDD='1.5' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C01EB21' DDD='0.4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C02AA02' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02AA02' DDD='0.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C02AA07' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02AB01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C02AB01' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C02AB02' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C02AC01' DDD='0.45' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02AC01' DDD='0.45' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C02AC02' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02AC04' DDD='0.75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02AC05' DDD='0.3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02BA01' DDD='0.25' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C02CA01' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02CA03' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C02CA04' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02CA06' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C02CA06' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C02CC01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C02CC02' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02CC03' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02CC04' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02CC07' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02DA01' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C02DB01' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02DB01' DDD='25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C02DB02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C02DB03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02DB04' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02DC01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02DD01' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C02DG01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02KD01' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02KD01' DDD='40' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C02KX01' DDD='0.25' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C02KX02' DDD='7.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C02KX03' DDD='0.1' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C02KX04' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C02KX05' DDD='4.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AA01' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AA02' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AA03' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AA04' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C03AA05' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AA06' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AA07' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AA08' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AA09' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03AB01' DDD='2.5' UnitType='mg' AdmCode='O' DDDComment='Refers to bendroflumethiazide'/>
+	<z:row ATCCode='C03AB02' DDD='25' UnitType='mg' AdmCode='O' DDDComment='Refers to hydroflumethiazide'/>
+	<z:row ATCCode='C03AB03' DDD='25' UnitType='mg' AdmCode='O' DDDComment='Refers to hydrochlorothiazide'/>
+	<z:row ATCCode='C03AB04' DDD='0.5' UnitType='g' AdmCode='O' DDDComment='Refers to chlorothiazide'/>
+	<z:row ATCCode='C03AB05' DDD='1' UnitType='mg' AdmCode='O' DDDComment='Refers to polythiazide'/>
+	<z:row ATCCode='C03AB06' DDD='4' UnitType='mg' AdmCode='O' DDDComment='Refers to trichlormethiazide'/>
+	<z:row ATCCode='C03AB07' DDD='0.5' UnitType='mg' AdmCode='O' DDDComment='Refers to cyclopenthiazide'/>
+	<z:row ATCCode='C03AB08' DDD='5' UnitType='mg' AdmCode='O' DDDComment='Refers to methyclothiazide'/>
+	<z:row ATCCode='C03AB09' DDD='5' UnitType='mg' AdmCode='O' DDDComment='Refers to cyclothiazide'/>
+	<z:row ATCCode='C03BA02' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03BA03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03BA04' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03BA05' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03BA08' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03BA10' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03BA11' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03BB02' DDD='50' UnitType='mg' AdmCode='O' DDDComment='Refers to quinethazone'/>
+	<z:row ATCCode='C03BB03' DDD='10' UnitType='mg' AdmCode='O' DDDComment='Refers to clopamide'/>
+	<z:row ATCCode='C03BB04' DDD='25' UnitType='mg' AdmCode='O' DDDComment='Refers to chlortalidone'/>
+	<z:row ATCCode='C03BB05' DDD='25' UnitType='mg' AdmCode='O' DDDComment='Refers to mefruside'/>
+	<z:row ATCCode='C03BD01' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C03CA01' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03CA01' DDD='40' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C03CA02' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03CA02' DDD='1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C03CA04' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03CA04' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C03CB01' DDD='40' UnitType='mg' AdmCode='O' DDDComment='Refers to furosemide'/>
+	<z:row ATCCode='C03CB02' DDD='1' UnitType='mg' AdmCode='O' DDDComment='Refers to bumetanide'/>
+	<z:row ATCCode='C03CC01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03CC01' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C03CD01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03DA01' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03DA02' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C03DA04' DDD='50' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C03DB01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C03DB02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C03XA01' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C04AA01' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C04AA01' DDD='60' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C04AA02' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C04AA31' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C04AB01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C04AB01' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C04AB02' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C04AC01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AC01' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C04AC02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AC02' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C04AC03' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AD02' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AD02' DDD='0.9' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C04AD03' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AD03' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C04AD04' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AE01' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C04AE01' DDD='3' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C04AF01' DDD='30' UnitType='U' AdmCode='O'/>
+	<z:row ATCCode='C04AF01' DDD='30' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='C04AX01' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AX02' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C04AX20' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AX21' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C04AX24' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C04AX30' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AA01' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AA01' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C07AA02' DDD='0.16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AA02' DDD='0.16' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C07AA03' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AA03' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C07AA05' DDD='0.16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AA05' DDD='0.16' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C07AA06' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AA06' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C07AA07' DDD='0.16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AA07' DDD='0.16' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C07AA12' DDD='0.16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AA14' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AA15' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AA16' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AA23' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AB01' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AB01' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C07AB02' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AB02' DDD='0.15' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C07AB03' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AB03' DDD='75' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C07AB04' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AB04' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C07AB05' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AB06' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AB07' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AB08' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AB09' DDD='2.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C07AB10' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AB11' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AB12' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C07AB13' DDD='0.1' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C07AG01' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C07AG01' DDD='0.6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C07AG02' DDD='37.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA01' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA03' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA03' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C08CA04' DDD='90' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA04' DDD='90' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C08CA05' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA05' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C08CA06' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C08CA06' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C08CA07' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA08' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA09' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA10' DDD='8' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA11' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA12' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA13' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08CA14' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C08CX01' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C08DA01' DDD='0.24' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C08DA01' DDD='0.24' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='C08DB01' DDD='0.24' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C08EA02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C08EX01' DDD='0.18' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C09AA01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA02' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C09AA03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA04' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA05' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA06' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA06' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='C09AA07' DDD='7.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA08' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA09' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA10' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA11' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA12' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA13' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA14' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA15' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09AA16' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C09CA01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09CA02' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C09CA03' DDD='80' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09CA04' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C09CA06' DDD='8' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09CA07' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09CA08' DDD='20' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C09CA09' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C09XA02' DDD='0.15' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C10AA01' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C10AA02' DDD='45' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C10AA03' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C10AA04' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C10AA05' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C10AA06' DDD='0.2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C10AA07' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C10AA08' DDD='2' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C10AB01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AB02' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AB04' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AB05' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='micronised '/>
+	<z:row ATCCode='C10AB08' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AB11' DDD='0.135' UnitType='g' AdmCode='O' DDDComment='Refers to fenofibric acid'/>
+	<z:row ATCCode='C10AC01' DDD='14' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AC02' DDD='20' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AC04' DDD='3.75' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C10AD01' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AD02' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AD05' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AD06' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='C10AX01' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C10AX09' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='C10AX12' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='C10BX01' DDD='30' UnitType='mg' AdmCode='O' DDDComment='Refers to simvastatin'/>
+	<z:row ATCCode='D01BA01' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='D01BA02' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='D02BB01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='D05BA01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='D05BA02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='D05BB01' DDD='35' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='D05BB02' DDD='35' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='D10BA01' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='D11AH04' DDD='20' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='D11AX02' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='D11AX10' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G01AA01' DDD='0.1' UnitType='MU' AdmCode='V'/>
+	<z:row ATCCode='G01AA02' DDD='25' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G01AA03' DDD='0.2' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AA04' DDD='6' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G01AA10' DDD='0.1' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AB01' DDD='0.5' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AC01' DDD='0.2' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AC03' DDD='0.2' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AC05' DDD='20' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G01AC06' DDD='0.1' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AD03' DDD='0.25' UnitType='g' AdmCode='V' DDDComment=''/>
+	<z:row ATCCode='G01AF01' DDD='0.5' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AF02' DDD='0.1' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AF04' DDD='0.1' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AF05' DDD='0.1' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AF07' DDD='0.6' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AF08' DDD='0.3' UnitType='g' AdmCode='V' DDDComment='Single dose treatment'/>
+	<z:row ATCCode='G01AF11' DDD='0.4' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AF12' DDD='0.1' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AF15' DDD='0.1' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AG02' DDD='80' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G01AX01' DDD='0.1' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AX03' DDD='90' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G01AX05' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G01AX05' DDD='0.6' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G01AX11' DDD='0.2' UnitType='g' AdmCode='V'/>
+	<z:row ATCCode='G02AB01' DDD='0.2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G02AB01' DDD='0.2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G02AB03' DDD='0.2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G02AB03' DDD='0.2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G02AD01' DDD='25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G02AD02' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G02AD02' DDD='0.5' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G02AD03' DDD='1' UnitType='mg' AdmCode='V' DDDComment='Single dose treatment'/>
+	<z:row ATCCode='G02AD04' DDD='2.5' UnitType='mg' AdmCode='P' DDDComment='Single dose treatment'/>
+	<z:row ATCCode='G02AD05' DDD='0.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G02AD06' DDD='0.2' UnitType='mg' AdmCode='V' DDDComment='vaginal insert, refert to the content of one vaginal insert'/>
+	<z:row ATCCode='G02CA01' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G02CA01' DDD='40' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G02CA02' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G02CB01' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G02CB01' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G02CB02' DDD='0.6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G02CB03' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G02CB04' DDD='75' UnitType='mcg' AdmCode='O'/>
+	<z:row ATCCode='G02CX01' DDD='165' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='G03AC01' DDD='2.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03AC06' DDD='1.67' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03AC08' DDD='68' UnitType='mcg' AdmCode='s.c. implant  '/>
+	<z:row ATCCode='G03AD01' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03AD02' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03BA01' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03BA02' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03BA03' DDD='0.12' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G03BA03' DDD='18' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03BA03' DDD='0.12' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='G03BA03' DDD='60' UnitType='mg' AdmCode='SL' DDDComment=''/>
+	<z:row ATCCode='G03BA03' DDD='50' UnitType='mg' AdmCode='TD' DDDComment='gel '/>
+	<z:row ATCCode='G03BA03' DDD='3' UnitType='mg' AdmCode='TD'/>
+	<z:row ATCCode='G03BB01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CA01' DDD='25' UnitType='mcg' AdmCode='O'/>
+	<z:row ATCCode='G03CA03' DDD='0.3' UnitType='mg' AdmCode='N' DDDComment=''/>
+	<z:row ATCCode='G03CA03' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CA03' DDD='1' UnitType='mg' AdmCode='P' DDDComment='depot short duration'/>
+	<z:row ATCCode='G03CA03' DDD='0.3' UnitType='mg' AdmCode='P' DDDComment='depot long duration'/>
+	<z:row ATCCode='G03CA03' DDD='5' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='G03CA03' DDD='50' UnitType='mcg' AdmCode='TD' DDDComment='patch  refer to amount delivered per 24 hours'/>
+	<z:row ATCCode='G03CA03' DDD='1' UnitType='mg' AdmCode='TD' DDDComment='gel '/>
+	<z:row ATCCode='G03CA03' DDD='25' UnitType='mcg' AdmCode='V'/>
+	<z:row ATCCode='G03CA03' DDD='7.5' UnitType='mcg' AdmCode='V' DDDComment='vaginal ring refers to amount delivered per 24 hours'/>
+	<z:row ATCCode='G03CA04' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CA04' DDD='2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03CA04' DDD='0.2' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G03CA06' DDD='24' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CA07' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CA57' DDD='0.625' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CA57' DDD='0.625' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G03CB01' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CB01' DDD='0.2' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G03CB02' DDD='0.2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CB02' DDD='1' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G03CB03' DDD='9' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03CX01' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DA01' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03DA02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DA02' DDD='7' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03DA03' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03DA04' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G03DA04' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03DA04' DDD='0.2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='G03DA04' DDD='90' UnitType='mg' AdmCode='V'/>
+	<z:row ATCCode='G03DB01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DB02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DB08' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DC01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DC02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DC03' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DC04' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03DC31' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03GA01' DDD='250' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='G03GA02' DDD='75' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='G03GA03' DDD='750' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='G03GA04' DDD='75' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='G03GA05' DDD='75' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='G03GA06' DDD='75' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='G03GA07' DDD='75' UnitType='U' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='G03GA08' DDD='0.25' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='G03GA09' DDD='0.15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G03GB01' DDD='0.14' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G03GB02' DDD='9' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03GB03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03HA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G03HA01' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='G03XA01' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G03XA02' DDD='0.7' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03XB01' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G03XB02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03XC01' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03XC02' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G03XC03' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04BA01' DDD='8.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BD01' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BD01' DDD='75' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='G04BD02' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BD03' DDD='0.45' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BD04' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04BD04' DDD='3.9' UnitType='mg' AdmCode='TD' DDDComment=''/>
+	<z:row ATCCode='G04BD05' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04BD06' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04BD07' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04BD08' DDD='5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G04BD09' DDD='40' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G04BD10' DDD='7.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G04BD11' DDD='4' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G04BD12' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04BE01' DDD='20' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='G04BE01' DDD='0.25' UnitType='mg' AdmCode='urethral'/>
+	<z:row ATCCode='G04BE03' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04BE04' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04BE07' DDD='2' UnitType='mg' AdmCode='SL' DDDComment=''/>
+	<z:row ATCCode='G04BE08' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G04BE09' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G04BE10' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BX01' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BX03' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BX06' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BX12' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='G04BX14' DDD='30' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='G04CA01' DDD='7.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04CA02' DDD='0.4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04CA03' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04CA04' DDD='8' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04CB01' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='G04CB02' DDD='0.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='H01AA01' DDD='25' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H01AA02' DDD='0.25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H01AB01' DDD='0.9' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H01AC01' DDD='2' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H01AC03' DDD='2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H01AX01' DDD='10' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='H01BA01' DDD='4' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H01BA02' DDD='25' UnitType='mcg' AdmCode='N'/>
+	<z:row ATCCode='H01BA02' DDD='0.4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H01BA02' DDD='4' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='H01BA02' DDD='0.24' UnitType='mg' AdmCode='SL' DDDComment='base'/>
+	<z:row ATCCode='H01BA03' DDD='20' UnitType='U' AdmCode='N'/>
+	<z:row ATCCode='H01BA03' DDD='20' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H01BA04' DDD='12' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='H01BA05' DDD='5' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H01BB01' DDD='100' UnitType='U' AdmCode='O'/>
+	<z:row ATCCode='H01BB02' DDD='15' UnitType='U' AdmCode='N'/>
+	<z:row ATCCode='H01BB02' DDD='200' UnitType='U' AdmCode='O'/>
+	<z:row ATCCode='H01BB02' DDD='15' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H01BB03' DDD='0.1' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='H01CA02' DDD='0.4' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='H01CB01' DDD='6' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H01CB02' DDD='0.7' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='H01CB03' DDD='3' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='H01CB05' DDD='1.2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H01CC01' DDD='0.25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H01CC02' DDD='0.25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AA02' DDD='0.1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AA03' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AA03' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB01' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB01' DDD='1.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB01' DDD='0.4' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='H02AB02' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB02' DDD='1.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB04' DDD='7.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB04' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB05' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB05' DDD='4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB06' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB06' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB07' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB08' DDD='7.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB08' DDD='7.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB09' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB09' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB10' DDD='37.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB10' DDD='37.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H02AB11' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02AB12' DDD='20' UnitType='mg' AdmCode='P' DDDComment='intraarticular'/>
+	<z:row ATCCode='H02AB13' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H02CA01' DDD='0.36' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='H03AA01' DDD='0.15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H03AA01' DDD='0.15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H03AA02' DDD='60' UnitType='mcg' AdmCode='O'/>
+	<z:row ATCCode='H03AA02' DDD='60' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='H03BA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='H03BA02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='H03BB01' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H03BB02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='H03CA' DDD='0.33' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='H03CA' DDD='0.33' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='H04AA01' DDD='1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='H05AA02' DDD='20' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='H05AA03' DDD='0.1' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='H05BA01' DDD='200' UnitType='U' AdmCode='N'/>
+	<z:row ATCCode='H05BA01' DDD='100' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H05BA02' DDD='100' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H05BA03' DDD='100' UnitType='U' AdmCode='P'/>
+	<z:row ATCCode='H05BX01' DDD='60' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='H05BX02' DDD='2' UnitType='mcg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='H05BX02' DDD='2' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01AA01' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA02' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01AA03' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA04' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA04' DDD='0.6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01AA05' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA06' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA06' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01AA07' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA07' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01AA08' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA08' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01AA09' DDD='0.35' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01AA11' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01AA12' DDD='0.1' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01BA01' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01BA01' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01BA02' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01BA02' DDD='1.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA01' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA01' DDD='2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='J01CA02' DDD='1.05' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA03' DDD='12' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA04' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA04' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA05' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA06' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA07' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA07' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA08' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA09' DDD='12' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA10' DDD='6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA11' DDD='1.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA12' DDD='14' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA13' DDD='15' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA14' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA14' DDD='1.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA15' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA16' DDD='15' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA17' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CA18' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CA19' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CE01' DDD='3.6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CE02' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CE03' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CE04' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CE05' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CE06' DDD='1.05' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CE07' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CE08' DDD='3.6' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01CE09' DDD='0.6' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01CE10' DDD='2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01CF01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CF01' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CF02' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CF02' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CF03' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CF04' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CF04' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CF05' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CF05' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CF06' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CG01' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01CR01' DDD='2' UnitType='g' AdmCode='P' DDDComment='Refers to ampicillin'/>
+	<z:row ATCCode='J01CR02' DDD='1' UnitType='g' AdmCode='O' DDDComment='Refers to amoxicillin'/>
+	<z:row ATCCode='J01CR02' DDD='3' UnitType='g' AdmCode='P' DDDComment='Refers to amoxicillin'/>
+	<z:row ATCCode='J01CR03' DDD='15' UnitType='g' AdmCode='P' DDDComment='Refers to ticarcillin'/>
+	<z:row ATCCode='J01CR04' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01CR05' DDD='14' UnitType='g' AdmCode='P' DDDComment='Refers to piperacillin'/>
+	<z:row ATCCode='J01DB01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DB02' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DB03' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DB04' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DB05' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DB06' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DB07' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DB08' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DB09' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DB09' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DB12' DDD='3' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01DC01' DDD='6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DC02' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DC02' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DC03' DDD='6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DC04' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DC05' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DC06' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DC07' DDD='1.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01DC07' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DC08' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DC09' DDD='4' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01DC10' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DC11' DDD='4' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01DC12' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DC13' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DC14' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD01' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD02' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD03' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD04' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD05' DDD='2' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01DD06' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD07' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD08' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DD09' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD10' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DD11' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD12' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DD13' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DD14' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DD15' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01DD16' DDD='0.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01DD17' DDD='0.45' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01DD62' DDD='4' UnitType='g' AdmCode='P' DDDComment='Refers to cefoperazone'/>
+	<z:row ATCCode='J01DE01' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DE02' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DE03' DDD='4' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01DF01' DDD='0.225' UnitType='g' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='J01DF01' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DF02' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DH02' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DH03' DDD='1' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01DH04' DDD='1.5' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01DH05' DDD='1.2' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01DH51' DDD='2' UnitType='g' AdmCode='P' DDDComment='Refers to imipenem'/>
+	<z:row ATCCode='J01DH55' DDD='2' UnitType='g' AdmCode='P' DDDComment='Refers to panipenem'/>
+	<z:row ATCCode='J01DI01' DDD='1.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01DI02' DDD='1.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01EA01' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EA01' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01EA02' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01EB01' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EB01' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01EB02' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EB03' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EB04' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EB05' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EB05' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01EB08' DDD='6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EC01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EC02' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EC03' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01EC03' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01ED01' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01ED02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01ED04' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01ED05' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01ED06' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01ED07' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01ED08' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01ED09' DDD='1.5' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01ED09' DDD='1.5' UnitType='g' AdmCode='R' DDDComment=''/>
+	<z:row ATCCode='J01FA01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA01' DDD='2' UnitType='g' AdmCode='O' DDDComment='erythromycin ethylsuccinate tablets'/>
+	<z:row ATCCode='J01FA01' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01FA02' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA03' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01FA05' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA06' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA07' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA08' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA09' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA09' DDD='1' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01FA10' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA10' DDD='0.5' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01FA11' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA12' DDD='0.8' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01FA13' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FA14' DDD='0.75' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01FA15' DDD='0.8' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01FF01' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FF01' DDD='1.8' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01FF02' DDD='1.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FF02' DDD='1.8' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01FG01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01FG02' DDD='1.5' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01GA01' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GA02' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB01' DDD='0.112' UnitType='g' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='J01GB01' DDD='0.3' UnitType='g' AdmCode='Inhal.solution' DDDComment=''/>
+	<z:row ATCCode='J01GB01' DDD='0.24' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB03' DDD='0.24' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB04' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB05' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01GB06' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB07' DDD='0.35' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01GB07' DDD='0.35' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB08' DDD='0.24' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB09' DDD='0.14' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB10' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB11' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01GB12' DDD='0.2' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01GB13' DDD='0.6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01MA01' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA01' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01MA02' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA02' DDD='0.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01MA03' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA03' DDD='0.8' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01MA04' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA05' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA06' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA08' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA08' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01MA09' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA10' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01MA11' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA12' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA12' DDD='0.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01MA13' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA13' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01MA14' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MA14' DDD='0.4' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01MA16' DDD='0.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01MA16' DDD='0.4' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01MA17' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01MA18' DDD='1' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01MA21' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MB01' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MB02' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MB03' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MB04' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MB05' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MB06' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01MB07' DDD='1.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01XA01' DDD='2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XA02' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XB01' DDD='3' UnitType='MU' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='J01XB01' DDD='3' UnitType='MU' AdmCode='Inhal.solution' DDDComment=''/>
+	<z:row ATCCode='J01XB01' DDD='3' UnitType='MU' AdmCode='P'/>
+	<z:row ATCCode='J01XB02' DDD='0.15' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XC01' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01XC01' DDD='1.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XD01' DDD='1.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XD02' DDD='1.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XD03' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XE01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01XE02' DDD='0.16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01XX01' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01XX01' DDD='8' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XX03' DDD='1.5' UnitType='g' AdmCode='R' DDDComment=''/>
+	<z:row ATCCode='J01XX04' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J01XX05' DDD='2' UnitType='g' AdmCode='O' DDDComment='hippurate'/>
+	<z:row ATCCode='J01XX05' DDD='3' UnitType='g' AdmCode='O' DDDComment='mandelate'/>
+	<z:row ATCCode='J01XX06' DDD='12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01XX07' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J01XX08' DDD='1.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J01XX08' DDD='1.2' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J01XX09' DDD='0.28' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J02AA01' DDD='35' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='J02AB01' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J02AB02' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J02AC01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J02AC01' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J02AC02' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J02AC02' DDD='0.2' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J02AC03' DDD='0.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J02AC03' DDD='0.4' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J02AC04' DDD='0.8' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J02AX01' DDD='10' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J02AX01' DDD='10' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J02AX04' DDD='50' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J02AX05' DDD='0.1' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J02AX06' DDD='0.1' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J04AA01' DDD='12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AA02' DDD='14' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AA02' DDD='14' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J04AB01' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AB02' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J04AB02' DDD='0.6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J04AB03' DDD='0.6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J04AB04' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AB30' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J04AC01' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AC01' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J04AD01' DDD='0.75' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J04AD02' DDD='7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AD03' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AK01' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AK02' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04AK02' DDD='1.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J04AK05' DDD='86' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='J04BA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J04BA02' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='J04BA03' DDD='0.33' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AB01' DDD='4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AB01' DDD='4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J05AB04' DDD='6' UnitType='g' AdmCode='Inhal.solution' DDDComment=''/>
+	<z:row ATCCode='J05AB04' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AB06' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AB06' DDD='0.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J05AB09' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AB11' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AB12' DDD='25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='J05AB14' DDD='0.9' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AB15' DDD='0.125' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AD01' DDD='6.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J05AE01' DDD='1.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AE02' DDD='2.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AE03' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AE04' DDD='2.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AE05' DDD='1.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AE07' DDD='1.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AE08' DDD='0.3' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AE09' DDD='1' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AE10' DDD='1.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AE11' DDD='2.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AE12' DDD='2.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AE14' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AF01' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AF01' DDD='0.6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='J05AF02' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AF03' DDD='2.25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='J05AF04' DDD='80' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='J05AF05' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AF06' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AF07' DDD='0.245' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AF08' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AF09' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AF10' DDD='0.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AF11' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AF12' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='J05AG01' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AG02' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AG03' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AG04' DDD='0.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AG05' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='J05AH01' DDD='20' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='J05AH02' DDD='0.15' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AR10' DDD='0.8' UnitType='g' AdmCode='O' DDDComment='Refers to lopinavir'/>
+	<z:row ATCCode='J05AX01' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AX05' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AX07' DDD='0.18' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='J05AX08' DDD='0.8' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AX09' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='J05AX12' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='J05AX13' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AX14' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='J05AX15' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J05AX16' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='J06BC01' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='L02AA01' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L02AA02' DDD='6' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L02AA03' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L02AA04' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L02AA04' DDD='0.25' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='L02AB01' DDD='0.16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L02AB02' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L02AB02' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='L02AB03' DDD='40' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L02AE01' DDD='0.11' UnitType='mg' AdmCode='implant'/>
+	<z:row ATCCode='L02AE01' DDD='1.2' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='L02AE01' DDD='1.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L02AE02' DDD='60' UnitType='mcg' AdmCode='implant'/>
+	<z:row ATCCode='L02AE02' DDD='1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L02AE02' DDD='0.134' UnitType='mg' AdmCode='P' DDDComment='depot inj'/>
+	<z:row ATCCode='L02AE03' DDD='0.129' UnitType='mg' AdmCode='implant'/>
+	<z:row ATCCode='L02AE04' DDD='0.134' UnitType='mg' AdmCode='P' DDDComment='depot inj '/>
+	<z:row ATCCode='L02AE04' DDD='0.1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L02AE05' DDD='0.137' UnitType='mg' AdmCode='implant'/>
+	<z:row ATCCode='L02BA01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L02BA02' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L02BA03' DDD='8.3' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L02BB01' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L02BB02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L02BB03' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L02BB04' DDD='0.16' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L02BG01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L02BG02' DDD='18' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L02BG03' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L02BG04' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L02BG06' DDD='25' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='L02BX01' DDD='3.6' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L02BX02' DDD='2.7' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L02BX03' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L03AA02' DDD='0.35' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AA03' DDD='0.35' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AA09' DDD='0.45' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AA10' DDD='0.35' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AA12' DDD='1.4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AA13' DDD='0.3' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L03AA14' DDD='0.3' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AB01' DDD='2' UnitType='MU' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L03AB02' DDD='33.33' UnitType='TU' AdmCode='P'/>
+	<z:row ATCCode='L03AB03' DDD='40' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='L03AB04' DDD='2' UnitType='MU' AdmCode='P'/>
+	<z:row ATCCode='L03AB05' DDD='2' UnitType='MU' AdmCode='P'/>
+	<z:row ATCCode='L03AB06' DDD='5' UnitType='MU' AdmCode='P'/>
+	<z:row ATCCode='L03AB07' DDD='4.3' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='L03AB08' DDD='4' UnitType='MU' AdmCode='P'/>
+	<z:row ATCCode='L03AB09' DDD='4' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='L03AB10' DDD='7.5' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L03AB11' DDD='26' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L03AB13' DDD='8.9' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='L03AB14' DDD='17' UnitType='mcg' AdmCode='P'/>
+	<z:row ATCCode='L03AC01' DDD='0.2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AC02' DDD='3.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AX01' DDD='0.3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L03AX01' DDD='0.3' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AX03' DDD='1.8' UnitType='mg' AdmCode='intravesical'/>
+	<z:row ATCCode='L03AX05' DDD='1.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L03AX10' DDD='3' UnitType='mg' AdmCode='intravesical'/>
+	<z:row ATCCode='L03AX11' DDD='3.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AX13' DDD='20' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L03AX14' DDD='0.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AX15' DDD='0.7' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L03AX16' DDD='16.8' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AA02' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AA04' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='L04AA06' DDD='2' UnitType='g' AdmCode='O' DDDComment='as mycophenolate mofetil'/>
+	<z:row ATCCode='L04AA06' DDD='2' UnitType='g' AdmCode='P' DDDComment='as mycophenolate mofetil'/>
+	<z:row ATCCode='L04AA10' DDD='3' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='L04AA13' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L04AA18' DDD='1.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='L04AA21' DDD='10' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AA23' DDD='10' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AA24' DDD='27' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AA25' DDD='64' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AA26' DDD='25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AA27' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L04AA28' DDD='12.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AA29' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L04AA31' DDD='14' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L04AA33' DDD='5.4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AA34' DDD='0.13' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AB01' DDD='7' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AB02' DDD='3.75' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AB04' DDD='2.9' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AB05' DDD='14' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AB06' DDD='1.66' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AC01' DDD='0.35' UnitType='g' AdmCode='P' DDDComment='course dose'/>
+	<z:row ATCCode='L04AC02' DDD='40' UnitType='mg' AdmCode='P' DDDComment='course dose'/>
+	<z:row ATCCode='L04AC03' DDD='0.1' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AC04' DDD='23' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AC05' DDD='0.54' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='L04AC07' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AC08' DDD='2.7' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AC11' DDD='37' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AD01' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L04AD01' DDD='0.25' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='L04AD02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='L04AD02' DDD='5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='L04AX01' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L04AX01' DDD='0.15' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='L04AX02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L04AX03' DDD='2.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='L04AX04' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='L04AX05' DDD='2.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='L04AX06' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M01AA01' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AA01' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M01AA01' DDD='0.3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AA02' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AA02' DDD='0.75' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M01AA03' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AA03' DDD='0.3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AA05' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AA05' DDD='0.6' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AB01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB01' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M01AB01' DDD='0.1' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AB02' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB02' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M01AB02' DDD='0.4' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AB03' DDD='0.7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB03' DDD='0.7' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AB04' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB05' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB05' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M01AB05' DDD='0.1' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AB06' DDD='1.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB06' DDD='1.25' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AB07' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB08' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB09' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB11' DDD='0.12' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M01AB15' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M01AB15' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M01AB16' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AB51' DDD='0.1' UnitType='g' AdmCode='O' DDDComment='Refers to indometacin'/>
+	<z:row ATCCode='M01AB51' DDD='0.1' UnitType='g' AdmCode='R' DDDComment='Refers to indometacin'/>
+	<z:row ATCCode='M01AB55' DDD='0.1' UnitType='g' AdmCode='O' DDDComment='Refers to diclofenac'/>
+	<z:row ATCCode='M01AC01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M01AC01' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M01AC01' DDD='20' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='M01AC02' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M01AC02' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M01AC02' DDD='20' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='M01AC05' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M01AC05' DDD='12' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='M01AC05' DDD='12' UnitType='mg' AdmCode='R' DDDComment=''/>
+	<z:row ATCCode='M01AC06' DDD='15' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M01AC06' DDD='15' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='M01AC06' DDD='15' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='M01AE01' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE01' DDD='1.2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AE02' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE02' DDD='0.5' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AE03' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE03' DDD='0.15' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M01AE03' DDD='0.15' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AE04' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE05' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE07' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE08' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE09' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE09' DDD='0.2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AE11' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE11' DDD='0.6' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AE12' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE14' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AE17' DDD='75' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M01AE17' DDD='75' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M01AE52' DDD='0.5' UnitType='g' AdmCode='O' DDDComment='Refers to naproxen'/>
+	<z:row ATCCode='M01AG01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AG02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AG02' DDD='0.3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AG03' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AH01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AH02' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M01AH03' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M01AH04' DDD='40' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='M01AH05' DDD='60' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M01AH06' DDD='0.1' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M01AX01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AX02' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AX04' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AX05' DDD='1.5' UnitType='g' AdmCode='O' DDDComment='Refers to glucosamine sulfate'/>
+	<z:row ATCCode='M01AX07' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AX07' DDD='0.15' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AX12' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M01AX13' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01AX13' DDD='0.9' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='M01AX17' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M01CA03' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M01CB01' DDD='2.4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M01CB02' DDD='14' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M01CB03' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M01CB04' DDD='2.4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M01CC01' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BA01' DDD='1.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BA02' DDD='1.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BA03' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BA03' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M03BA04' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BA05' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BB02' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BB03' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BC01' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BC01' DDD='0.12' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M03BX01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M03BX01' DDD='0.55' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='M03BX02' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M03BX04' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03BX09' DDD='0.15' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M03BX30' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M03CA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M04AA01' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M04AA01' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='M04AA03' DDD='80' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M04AB01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M04AB02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M04AB03' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M04AC01' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M04AC01' DDD='1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M04AC02' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M04AX02' DDD='0.57' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M05BA01' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M05BA01' DDD='1.5' UnitType='g' AdmCode='P' DDDComment='course dose'/>
+	<z:row ATCCode='M05BA02' DDD='1.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M05BA02' DDD='1.5' UnitType='g' AdmCode='P' DDDComment='course dose'/>
+	<z:row ATCCode='M05BA03' DDD='60' UnitType='mg' AdmCode='P' DDDComment='course dose'/>
+	<z:row ATCCode='M05BA04' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M05BA05' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M05BA06' DDD='5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M05BA06' DDD='6' UnitType='mg' AdmCode='P' DDDComment='course dose '/>
+	<z:row ATCCode='M05BA07' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='M05BA08' DDD='4' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='M05BB01' DDD='0.4' UnitType='g' AdmCode='O' DDDComment='Refers to etidronic acid'/>
+	<z:row ATCCode='M05BB03' DDD='10' UnitType='mg' AdmCode='O' DDDComment='Refers to alendronic acid'/>
+	<z:row ATCCode='M05BB04' DDD='5' UnitType='mg' AdmCode='O' DDDComment='Refers to risedronic acid '/>
+	<z:row ATCCode='M05BB05' DDD='10' UnitType='mg' AdmCode='O' DDDComment='Refers to alendronic acid'/>
+	<z:row ATCCode='M05BB06' DDD='10' UnitType='mg' AdmCode='O' DDDComment='Refers to alendronic acid'/>
+	<z:row ATCCode='M05BX03' DDD='2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='M05BX04' DDD='0.33' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M09AA01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='M09AB02' DDD='0.9' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='M09AX01' DDD='3.6' UnitType='mg' AdmCode='P' DDDComment='intraarticular'/>
+	<z:row ATCCode='N02AA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02AA01' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AA01' DDD='30' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N02AA03' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02AA03' DDD='4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AA03' DDD='4' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N02AA04' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02AA04' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AA04' DDD='30' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N02AA05' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02AA05' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AA08' DDD='0.15' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N02AA55' DDD='75' UnitType='mg' AdmCode='O' DDDComment='The DDD refers to oxycodone, valid for combinations with naloxone, only.'/>
+	<z:row ATCCode='N02AB01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02AB01' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AB02' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02AB02' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N02AB02' DDD='0.4' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N02AB03' DDD='0.6' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='N02AB03' DDD='0.6' UnitType='mg' AdmCode='SL' DDDComment=''/>
+	<z:row ATCCode='N02AB03' DDD='1.2' UnitType='mg' AdmCode='TD' DDDComment=''/>
+	<z:row ATCCode='N02AC01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02AC01' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AC01' DDD='40' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N02AC03' DDD='45' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AC04' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='chloride'/>
+	<z:row ATCCode='N02AC04' DDD='0.3' UnitType='g' AdmCode='O' DDDComment='napsylate'/>
+	<z:row ATCCode='N02AC05' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02AD01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02AD01' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N02AD02' DDD='3' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AE01' DDD='1.2' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N02AE01' DDD='1.2' UnitType='mg' AdmCode='SL'/>
+	<z:row ATCCode='N02AE01' DDD='1.2' UnitType='mg' AdmCode='TD' DDDComment=''/>
+	<z:row ATCCode='N02AF01' DDD='12' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AF02' DDD='80' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02AX01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02AX01' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N02AX02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02AX02' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N02AX02' DDD='0.3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N02AX05' DDD='1.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N02AX05' DDD='1.2' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N02AX06' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA01' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA01' DDD='1' UnitType='g' AdmCode='P' DDDComment='Refers to lysine acetylsalisylate'/>
+	<z:row ATCCode='N02BA01' DDD='3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N02BA02' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA03' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA04' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA05' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA06' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA07' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA09' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA10' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA11' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA12' DDD='7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BA15' DDD='3.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BB01' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BB02' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BB02' DDD='3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N02BB02' DDD='3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N02BB03' DDD='0.5' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N02BB04' DDD='3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N02BB51' DDD='3' UnitType='g' AdmCode='O' DDDComment='Refers to phenazone'/>
+	<z:row ATCCode='N02BB54' DDD='3' UnitType='g' AdmCode='O' DDDComment='Refers to propyphenazone'/>
+	<z:row ATCCode='N02BE01' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BE01' DDD='3' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N02BE01' DDD='3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N02BE03' DDD='1.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BE05' DDD='6' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N02BG02' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BG03' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BG04' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BG07' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N02BG08' DDD='12' UnitType='mcg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N02CA01' DDD='1' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='N02CA01' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CA01' DDD='4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02CA02' DDD='4' UnitType='mg' AdmCode='Inh.aerosol'/>
+	<z:row ATCCode='N02CA02' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CA02' DDD='4' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02CA02' DDD='4' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N02CA02' DDD='4' UnitType='mg' AdmCode='SL'/>
+	<z:row ATCCode='N02CA04' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CA52' DDD='4' UnitType='mg' AdmCode='O' DDDComment='Refers to ergotamine'/>
+	<z:row ATCCode='N02CA72' DDD='4' UnitType='mg' AdmCode='O' DDDComment='Refers to ergotamine'/>
+	<z:row ATCCode='N02CB01' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CC01' DDD='20' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='N02CC01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CC01' DDD='6' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N02CC01' DDD='25' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N02CC02' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CC03' DDD='2.5' UnitType='mg' AdmCode='N' DDDComment=''/>
+	<z:row ATCCode='N02CC03' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CC04' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CC05' DDD='12.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N02CC06' DDD='40' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N02CC07' DDD='2.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N02CX01' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CX02' DDD='0.1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N02CX03' DDD='24' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N03AA01' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AA02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AA02' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N03AA03' DDD='1.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AA30' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AB01' DDD='2.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AB02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AB02' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N03AB03' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AB04' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AB05' DDD='0.45' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N03AC01' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AC02' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AD01' DDD='1.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AD02' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AD03' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AE01' DDD='8' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N03AE01' DDD='8' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N03AF01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AF01' DDD='1' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N03AF02' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AF03' DDD='1.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N03AF04' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AG01' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AG01' DDD='1.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N03AG01' DDD='1.5' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N03AG02' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AG03' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AG03' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N03AG04' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AG06' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N03AX03' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AX07' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AX09' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AX10' DDD='2.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AX11' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AX12' DDD='1.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AX14' DDD='1.5' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N03AX14' DDD='1.5' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N03AX15' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N03AX16' DDD='0.3' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N03AX17' DDD='1' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N03AX18' DDD='0.3' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N03AX18' DDD='0.3' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N03AX21' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N03AX22' DDD='8' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04AA01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04AA02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04AA02' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N04AA03' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04AA04' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04AA04' DDD='25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N04AA08' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04AA08' DDD='0.125' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N04AB02' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N04AB02' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N04AC01' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04AC01' DDD='2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N04AC30' DDD='9' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04BA01' DDD='3.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N04BA02' DDD='0.6' UnitType='g' AdmCode='O' DDDComment='Refers to levodopa'/>
+	<z:row ATCCode='N04BA03' DDD='0.45' UnitType='g' AdmCode='O' DDDComment='Refers to levodopa '/>
+	<z:row ATCCode='N04BB01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N04BC01' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04BC02' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04BC04' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04BC05' DDD='2.5' UnitType='mg' AdmCode='O' DDDComment='hydrochloride'/>
+	<z:row ATCCode='N04BC06' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04BC07' DDD='20' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N04BC08' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N04BC09' DDD='6' UnitType='mg' AdmCode='TD patch' DDDComment=''/>
+	<z:row ATCCode='N04BD01' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N04BD02' DDD='1' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N04BX01' DDD='0.45' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N04BX02' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AA01' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AA01' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AA01' DDD='0.3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N05AA02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AA02' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AA03' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AA03' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AA04' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AA04' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AA05' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AA05' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AB01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AB01' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AB02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AB02' DDD='1' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AB03' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AB03' DDD='7' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AB03' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AB03' DDD='16' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N05AB04' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AB04' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AB04' DDD='0.1' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N05AB05' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AB06' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AB06' DDD='8' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AB06' DDD='20' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N05AB07' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AB08' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AB08' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AB09' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AB10' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AB10' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AC01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AC01' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AC02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AC03' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AC03' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AC04' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AC04' DDD='5' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AD01' DDD='8' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AD01' DDD='8' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AD01' DDD='3.3' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AD02' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AD03' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AD03' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AD04' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AD04' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AD05' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AD06' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AD06' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AD06' DDD='3.3' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AD07' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AD08' DDD='2.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AE01' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AE02' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AE03' DDD='16' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AE04' DDD='80' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05AE04' DDD='40' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N05AE05' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AF01' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AF01' DDD='4' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AF02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AF02' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AF03' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AF03' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AF04' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AF05' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AF05' DDD='15' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AF05' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AG01' DDD='0.7' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AG02' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AG03' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AH01' DDD='9.1' UnitType='mg' AdmCode='Inhal.powder' DDDComment='delivered dose'/>
+	<z:row ATCCode='N05AH01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AH02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AH02' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AH03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AH03' DDD='10' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N05AH03' DDD='10' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AH04' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AH05' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05AH06' DDD='80' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05AH06' DDD='80' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N05AL01' DDD='0.8' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AL01' DDD='0.8' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AL02' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AL03' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AL03' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AL04' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AL04' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AL05' DDD='0.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05AL07' DDD='0.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05AN01' DDD='24' UnitType='mmol' AdmCode='O'/>
+	<z:row ATCCode='N05AX07' DDD='0.24' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AX07' DDD='0.24' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05AX08' DDD='5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05AX08' DDD='2.7' UnitType='mg' AdmCode='P' DDDComment='depot '/>
+	<z:row ATCCode='N05AX11' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05AX12' DDD='15' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05AX12' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05AX12' DDD='13.3' UnitType='mg' AdmCode='P' DDDComment='depot'/>
+	<z:row ATCCode='N05AX13' DDD='6' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05AX13' DDD='2.5' UnitType='mg' AdmCode='P' DDDComment='depot    Expressed as paliperidone'/>
+	<z:row ATCCode='N05BA01' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA01' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05BA01' DDD='10' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='N05BA02' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA02' DDD='50' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05BA03' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA04' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA05' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA06' DDD='2.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA06' DDD='2.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05BA06' DDD='2.5' UnitType='mg' AdmCode='SL'/>
+	<z:row ATCCode='N05BA08' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA09' DDD='20' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05BA11' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA12' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA13' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05BA15' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA16' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA17' DDD='0.75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BA18' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BB01' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BB01' DDD='75' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05BB02' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05BC01' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05BC03' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05BD01' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BD01' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05BE01' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05BX01' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05BX04' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA01' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05CA01' DDD='0.1' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N05CA02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA02' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05CA03' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA04' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA05' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA05' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05CA06' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA07' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA08' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA09' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA10' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA11' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA12' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CA16' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CC01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CC01' DDD='1' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N05CC02' DDD='1.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CC03' DDD='1.7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CC04' DDD='1.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CC05' DDD='5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CC05' DDD='5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05CC05' DDD='5' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='N05CD01' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD02' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD03' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD03' DDD='1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05CD04' DDD='3' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD05' DDD='0.25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD05' DDD='0.2' UnitType='mg' AdmCode='SL'/>
+	<z:row ATCCode='N05CD06' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD07' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD08' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD08' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05CD09' DDD='0.25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD10' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CD11' DDD='1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CE01' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CE02' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CE03' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CF01' DDD='7.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CF02' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CF03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CH01' DDD='2' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N05CM01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM02' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM02' DDD='1.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N05CM03' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM04' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM05' DDD='0.9' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CM05' DDD='0.9' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N05CM06' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N05CM07' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM08' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM10' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM12' DDD='0.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM13' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N05CM18' DDD='1' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N06AA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA02' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N06AA03' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA04' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA04' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N06AA05' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA06' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA06' DDD='0.15' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N06AA07' DDD='0.105' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA08' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA09' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AA09' DDD='75' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N06AA10' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AA10' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N06AA11' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AA12' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA12' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N06AA13' DDD='90' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AA14' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AA14' DDD='75' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N06AA15' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AA16' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA17' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA18' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA21' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AA21' DDD='0.1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N06AB02' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AB03' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AB04' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AB04' DDD='20' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='N06AB05' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AB06' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AB08' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AB10' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N06AF01' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AF02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AF03' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AF04' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AG02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AX03' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AX04' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AX05' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AX06' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AX07' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AX09' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AX11' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AX12' DDD='0.3' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N06AX14' DDD='37.5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N06AX16' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AX17' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06AX18' DDD='8' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AX21' DDD='60' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N06AX22' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AX23' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06AX26' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BA01' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BA01' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N06BA02' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BA03' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BA04' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BA05' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BA07' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06BA09' DDD='80' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N06BA11' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BA12' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BA13' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06BC01' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06BC01' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N06BX02' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N06BX03' DDD='2.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06BX03' DDD='6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N06BX15' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06BX18' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06DA01' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N06DA02' DDD='7.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06DA03' DDD='9' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06DA03' DDD='9.5' UnitType='mg' AdmCode='TD' DDDComment='delivered dose '/>
+	<z:row ATCCode='N06DA04' DDD='16' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N06DX01' DDD='20' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N06DX02' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N07AA01' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07AA01' DDD='2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N07AA02' DDD='0.18' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N07AA02' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N07AA03' DDD='5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07AA03' DDD='0.25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N07AA30' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07AB01' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07AB01' DDD='0.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N07AB02' DDD='45' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07AX01' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07AX01' DDD='10' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N07AX03' DDD='90' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N07BA01' DDD='30' UnitType='mg' AdmCode='Chewing gum'/>
+	<z:row ATCCode='N07BA01' DDD='60' UnitType='mg' AdmCode='Inhal'/>
+	<z:row ATCCode='N07BA01' DDD='30' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='N07BA01' DDD='30' UnitType='mg' AdmCode='SL' DDDComment=''/>
+	<z:row ATCCode='N07BA01' DDD='14' UnitType='mg' AdmCode='TD'/>
+	<z:row ATCCode='N07BA03' DDD='2' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N07BB01' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N07BB03' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N07BB04' DDD='50' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N07BB05' DDD='18' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07BC01' DDD='8' UnitType='mg' AdmCode='SL' DDDComment=''/>
+	<z:row ATCCode='N07BC02' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07BC02' DDD='25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='N07BC04' DDD='1.4' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N07BC51' DDD='8' UnitType='mg' AdmCode='SL' DDDComment='Refers to buprenorphine'/>
+	<z:row ATCCode='N07CA01' DDD='24' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07CA02' DDD='90' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07CA03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07CA52' DDD='90' UnitType='mg' AdmCode='O' DDDComment='Refers to cinnarizine'/>
+	<z:row ATCCode='N07XX01' DDD='0.42' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='N07XX02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N07XX04' DDD='7.5' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='N07XX05' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07XX06' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N07XX07' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07XX08' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='N07XX09' DDD='0.48' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='N07XX59' DDD='40' UnitType='mg' AdmCode='O' DDDComment='Expressed as dextromethorphan'/>
+	<z:row ATCCode='P01AB01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01AB01' DDD='2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='P01AB02' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01AB02' DDD='2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='P01AB03' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01AB06' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01AC01' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01AX02' DDD='60' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='P01AX05' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01AX06' DDD='2.25' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01AX07' DDD='85' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='P01AX09' DDD='60' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='P01AX11' DDD='1' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='P01BA01' DDD='0.5' UnitType='g' AdmCode='O' DDDComment='base'/>
+	<z:row ATCCode='P01BA01' DDD='0.5' UnitType='g' AdmCode='P' DDDComment='base'/>
+	<z:row ATCCode='P01BA02' DDD='0.516' UnitType='g' AdmCode='O' DDDComment='base'/>
+	<z:row ATCCode='P01BA03' DDD='15' UnitType='mg' AdmCode='O' DDDComment='base'/>
+	<z:row ATCCode='P01BA06' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01BB01' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='hydrochloride, (prophylactic daily dose)'/>
+	<z:row ATCCode='P01BC01' DDD='1.5' UnitType='g' AdmCode='O' DDDComment='base'/>
+	<z:row ATCCode='P01BC01' DDD='1.5' UnitType='g' AdmCode='P' DDDComment='base'/>
+	<z:row ATCCode='P01BC02' DDD='1' UnitType='g' AdmCode='O' DDDComment='base'/>
+	<z:row ATCCode='P01BD01' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='P01BD51' DDD='75' UnitType='mg' AdmCode='O' DDDComment='Expressed as pyrimethamine'/>
+	<z:row ATCCode='P01BE01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01BE02' DDD='0.28' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01BE02' DDD='0.12' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='P01BE03' DDD='0.28' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01BE03' DDD='0.28' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='P01BE05' DDD='0.28' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01BF01' DDD='0.28' UnitType='g' AdmCode='O' DDDComment='Expressed as arthemether'/>
+	<z:row ATCCode='P01BX01' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01CA02' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01CB01' DDD='0.85' UnitType='g' AdmCode='P' DDDComment='Sb5+'/>
+	<z:row ATCCode='P01CB02' DDD='0.85' UnitType='g' AdmCode='P' DDDComment='Sb5+'/>
+	<z:row ATCCode='P01CC01' DDD='0.7' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P01CD01' DDD='60' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='P01CX01' DDD='0.28' UnitType='g' AdmCode='P' DDDComment='per injection'/>
+	<z:row ATCCode='P01CX02' DDD='0.27' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='P02BA01' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02BA02' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02BB01' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='P02CA01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02CA02' DDD='3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02CA03' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02CA05' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02CB01' DDD='3.5' UnitType='g' AdmCode='O' DDDComment='as hydrate      '/>
+	<z:row ATCCode='P02CB02' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02CC01' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02CE01' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02CF01' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='P02CX01' DDD='0.35' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='P02DA01' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R01AA03' DDD='8' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AA04' DDD='4' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AA05' DDD='0.4' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AA06' DDD='0.8' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AA07' DDD='0.8' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AA08' DDD='0.4' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AC01' DDD='40' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AC02' DDD='0.6' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AC03' DDD='0.56' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AC07' DDD='10.4' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD01' DDD='0.4' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD04' DDD='0.15' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD05' DDD='0.2' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD06' DDD='0.4' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD07' DDD='8' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD08' DDD='0.2' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD09' DDD='0.2' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD11' DDD='0.22' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AD12' DDD='0.11' UnitType='mg' AdmCode='N' DDDComment=''/>
+	<z:row ATCCode='R01AD13' DDD='0.2' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01AX02' DDD='800' UnitType='U' AdmCode='N'/>
+	<z:row ATCCode='R01AX03' DDD='0.24' UnitType='mg' AdmCode='N'/>
+	<z:row ATCCode='R01BA01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R01BA02' DDD='0.24' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R01BA03' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R01BA51' DDD='0.1' UnitType='g' AdmCode='O' DDDComment='Refers to phenylpropanolamine'/>
+	<z:row ATCCode='R01BA52' DDD='0.24' UnitType='g' AdmCode='O' DDDComment='Refers to pseudoephedrine'/>
+	<z:row ATCCode='R02AA01' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R02AA02' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R02AA05' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R02AX01' DDD='44' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='R03AA01' DDD='2.24' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AA01' DDD='20' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03AB02' DDD='0.64' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AB02' DDD='10' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03AB03' DDD='6' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC02' DDD='0.8' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC02' DDD='0.8' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03AC02' DDD='10' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03AC03' DDD='2' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC03' DDD='2' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03AC03' DDD='20' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03AC04' DDD='0.6' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC04' DDD='0.6' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03AC04' DDD='4' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03AC05' DDD='1.6' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC06' DDD='1.5' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC08' DDD='1.2' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC11' DDD='1.6' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC12' DDD='0.1' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC12' DDD='0.1' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03AC13' DDD='24' UnitType='mcg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC13' DDD='24' UnitType='mcg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03AC16' DDD='60' UnitType='mcg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03AC18' DDD='0.15' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03AC19' DDD='5' UnitType='mcg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03BA01' DDD='0.8' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03BA01' DDD='0.8' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03BA01' DDD='1.5' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03BA02' DDD='0.8' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03BA02' DDD='0.8' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03BA02' DDD='1.5' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03BA03' DDD='1' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03BA05' DDD='0.6' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03BA05' DDD='0.6' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03BA05' DDD='1.5' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03BA07' DDD='0.4' UnitType='mg' AdmCode='Inhal.powder' DDDComment=''/>
+	<z:row ATCCode='R03BA08' DDD='0.16' UnitType='mg' AdmCode='Inhal.aerosol' DDDComment=''/>
+	<z:row ATCCode='R03BB01' DDD='0.12' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03BB01' DDD='0.12' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03BB01' DDD='0.3' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03BB02' DDD='0.6' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03BB02' DDD='4' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03BB04' DDD='18' UnitType='mcg' AdmCode='Inhal.powder' DDDComment=''/>
+	<z:row ATCCode='R03BB04' DDD='5' UnitType='mcg' AdmCode='Inhal.solution' DDDComment=''/>
+	<z:row ATCCode='R03BB05' DDD='0.644' UnitType='mg' AdmCode='Inhal.powder' DDDComment='Refers to aclidinium, delivered dose'/>
+	<z:row ATCCode='R03BB06' DDD='44' UnitType='mcg' AdmCode='Inhal.powder' DDDComment='Refers to glycopyrronium, delivered dose'/>
+	<z:row ATCCode='R03BB07' DDD='55' UnitType='mcg' AdmCode='Inhal.powder' DDDComment='Refers to umeclidinium, delivered dose'/>
+	<z:row ATCCode='R03BC01' DDD='40' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03BC01' DDD='80' UnitType='mg' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R03BC01' DDD='80' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R03BC03' DDD='8' UnitType='mg' AdmCode='Inhal.aerosol'/>
+	<z:row ATCCode='R03CA02' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CB01' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CB02' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R03CB03' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CB03' DDD='60' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R03CC02' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC02' DDD='12' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R03CC03' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC03' DDD='15' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R03CC04' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC04' DDD='10' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='R03CC05' DDD='1.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC05' DDD='1.5' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R03CC06' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC07' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC08' DDD='0.1' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC09' DDD='9' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC09' DDD='0.2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R03CC10' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC11' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC12' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03CC13' DDD='40' UnitType='mcg' AdmCode='O'/>
+	<z:row ATCCode='R03DA01' DDD='1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R03DA01' DDD='1' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R03DA01' DDD='1' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='R03DA02' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R03DA02' DDD='0.6' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='R03DA03' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R03DA03' DDD='1.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R03DA03' DDD='1.2' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='R03DA04' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R03DA04' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R03DA04' DDD='0.4' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='R03DA05' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R03DA05' DDD='0.6' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R03DA05' DDD='0.6' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='R03DC01' DDD='40' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03DC03' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R03DX05' DDD='16' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='R03DX07' DDD='0.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05CA01' DDD='5' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R05CA02' DDD='1.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05CA03' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05CA03' DDD='0.9' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R05CA04' DDD='4' UnitType='mg' AdmCode='O' DDDComment='emetine'/>
+	<z:row ATCCode='R05CA05' DDD='1.6' UnitType='g' AdmCode='O' DDDComment='root'/>
+	<z:row ATCCode='R05CA06' DDD='3' UnitType='g' AdmCode='O' DDDComment='root'/>
+	<z:row ATCCode='R05CA07' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05CB01' DDD='1.6' UnitType='g' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R05CB01' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05CB02' DDD='24' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05CB02' DDD='24' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R05CB03' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05CB04' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05CB05' DDD='1.2' UnitType='g' AdmCode='Inhal' DDDComment=''/>
+	<z:row ATCCode='R05CB06' DDD='0.12' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='R05CB13' DDD='2.5' UnitType='mg' AdmCode='Inhal.solution'/>
+	<z:row ATCCode='R05CB15' DDD='0.6' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='R05CB16' DDD='0.8' UnitType='g' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R05DA01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DA03' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DA04' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05DA07' DDD='0.125' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05DA08' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DA09' DDD='90' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DA10' DDD='15' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DA12' DDD='30' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='R05DB01' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05DB02' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DB03' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05DB03' DDD='0.12' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R05DB04' DDD='0.11' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05DB05' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05DB05' DDD='0.1' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='R05DB07' DDD='0.6' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05DB09' DDD='80' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DB10' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DB11' DDD='80' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DB12' DDD='90' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DB13' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R05DB14' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R05DB21' DDD='60' UnitType='mg' AdmCode='O' DDDComment='Expressed as cloperastine hydrochloride'/>
+	<z:row ATCCode='R05DB27' DDD='0.12' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='R06AA02' DDD='0.2' UnitType='g' AdmCode='O' DDDComment='chloride'/>
+	<z:row ATCCode='R06AA02' DDD='0.3' UnitType='g' AdmCode='O' DDDComment='teoclate'/>
+	<z:row ATCCode='R06AA02' DDD='0.2' UnitType='g' AdmCode='R' DDDComment='chloride'/>
+	<z:row ATCCode='R06AA02' DDD='0.3' UnitType='g' AdmCode='R' DDDComment='teoclate'/>
+	<z:row ATCCode='R06AA04' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AA04' DDD='2' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R06AA06' DDD='80' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AA06' DDD='80' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R06AA07' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AA08' DDD='16' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AB01' DDD='24' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AB02' DDD='6' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AB02' DDD='6' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R06AB03' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AB04' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AB04' DDD='12' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R06AB05' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AC01' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AC01' DDD='0.2' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R06AC02' DDD='80' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AC03' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AC03' DDD='20' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R06AC04' DDD='0.15' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AD01' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AD01' DDD='30' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R06AD02' DDD='25' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AD02' DDD='25' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R06AD02' DDD='25' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='R06AD03' DDD='13' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AD03' DDD='13' UnitType='mg' AdmCode='P'/>
+	<z:row ATCCode='R06AD03' DDD='13' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='R06AD04' DDD='16' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AD05' DDD='75' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AD06' DDD='0.9' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AD06' DDD='0.3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='R06AD07' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AD08' DDD='30' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AE01' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AE03' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AE03' DDD='0.3' UnitType='g' AdmCode='R'/>
+	<z:row ATCCode='R06AE04' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AE05' DDD='50' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AE05' DDD='50' UnitType='mg' AdmCode='R'/>
+	<z:row ATCCode='R06AE06' DDD='60' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AE07' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AE09' DDD='5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='R06AX01' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AX02' DDD='12' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX05' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AX05' DDD='0.3' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R06AX07' DDD='7.5' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX09' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX11' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX12' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AX13' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX15' DDD='0.2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AX16' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX17' DDD='2' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX18' DDD='24' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX19' DDD='4' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX22' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX25' DDD='10' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R06AX26' DDD='0.12' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R06AX27' DDD='5' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='R06AX28' DDD='10' UnitType='mg' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='R06AX29' DDD='20' UnitType='mg' AdmCode='O'/>
+	<z:row ATCCode='R07AA01' DDD='0.108' UnitType='g' AdmCode='Inhal.powder'/>
+	<z:row ATCCode='R07AA02' DDD='0.16' UnitType='g' AdmCode='Instill.sol.'/>
+	<z:row ATCCode='R07AB01' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R07AB02' DDD='0.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R07AB02' DDD='0.5' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R07AB03' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R07AB06' DDD='0.4' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R07AB06' DDD='0.4' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='R07AB07' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='R07AX02' DDD='0.3' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='S01EB01' DDD='0.4' UnitType='ml'/>
+	<z:row ATCCode='S01EB01' DDD='0.285' AdmCode='lamella'/>
+	<z:row ATCCode='S01EB01' DDD='40' UnitType='mg' AdmCode='ointment'/>
+	<z:row ATCCode='S01EB02' DDD='0.4' UnitType='ml'/>
+	<z:row ATCCode='S01EB03' DDD='0.2' UnitType='ml'/>
+	<z:row ATCCode='S01EB04' DDD='0.1' UnitType='ml'/>
+	<z:row ATCCode='S01EB05' DDD='0.4' UnitType='ml'/>
+	<z:row ATCCode='S01EB06' DDD='0.4' UnitType='ml'/>
+	<z:row ATCCode='S01EB06' DDD='40' UnitType='mg' AdmCode='ointment'/>
+	<z:row ATCCode='S01EC01' DDD='0.75' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='S01EC01' DDD='0.75' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='S01EC02' DDD='0.1' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='S01EC03' DDD='0.3' UnitType='ml'/>
+	<z:row ATCCode='S01EC04' DDD='0.2' UnitType='ml' DDDComment=''/>
+	<z:row ATCCode='S01EC05' DDD='0.2' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='S01ED01' DDD=''/>
+	<z:row ATCCode='S01ED02' DDD=''/>
+	<z:row ATCCode='S01ED03' DDD=''/>
+	<z:row ATCCode='S01ED04' DDD=''/>
+	<z:row ATCCode='S01ED05' DDD=''/>
+	<z:row ATCCode='S01ED06' DDD=''/>
+	<z:row ATCCode='S01EE02' DDD='' DDDComment=''/>
+	<z:row ATCCode='S01EE03' DDD='' DDDComment=''/>
+	<z:row ATCCode='S01EE04' DDD='' DDDComment=''/>
+	<z:row ATCCode='V03AE01' DDD='45' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='V03AE02' DDD='6.4' UnitType='g' AdmCode='O' DDDComment=''/>
+	<z:row ATCCode='V03AE03' DDD='2.25' UnitType='g' AdmCode='O' DDDComment='Expressed as lanthanum'/>
+	<z:row ATCCode='V03AE05' DDD='1.5' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='V03AE07' DDD='2' UnitType='g' AdmCode='O'/>
+	<z:row ATCCode='V03AF02' DDD='1.5' UnitType='g' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='V03AF03' DDD='60' UnitType='mg' AdmCode='O' DDDComment='Expressed as folinic acid'/>
+	<z:row ATCCode='V03AF03' DDD='60' UnitType='mg' AdmCode='P' DDDComment='Expressed as folinic acid'/>
+	<z:row ATCCode='V03AF04' DDD='30' UnitType='mg' AdmCode='O' DDDComment='Expressed as levofolinic acid'/>
+	<z:row ATCCode='V03AF04' DDD='30' UnitType='mg' AdmCode='P' DDDComment='Expressed as levofolinic acid'/>
+	<z:row ATCCode='V03AF05' DDD='1.7' UnitType='g' AdmCode='P'/>
+	<z:row ATCCode='V03AF06' DDD='60' UnitType='mg' AdmCode='P' DDDComment='Expressed as folinic acid'/>
+	<z:row ATCCode='V03AF07' DDD='14' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='V03AF08' DDD='4.2' UnitType='mg' AdmCode='P' DDDComment=''/>
+	<z:row ATCCode='V03AF10' DDD='30' UnitType='mg' AdmCode='P' DDDComment='Expressed as levofolinic acid'/>
+	<z:row ATCCode='V03AX03' DDD='0.15' UnitType='g' AdmCode='O'/>
+</rs:data>
+</xml>
