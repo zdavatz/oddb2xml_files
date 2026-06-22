@@ -1,0 +1,20 @@
+[package]
+name = "oddb2xml_files_scraper"
+version = "0.1.0"
+edition = "2021"
+description = "Scrapers that (re)generate the data CSVs in the oddb2xml_files repository"
+license = "GPL-3.0-or-later"
+
+[[bin]]
+name = "scraper"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4.6", features = ["derive"] }
+csv = "1.4"
+scraper = "0.20"
+ureq = { version = "3.3", features = ["gzip", "rustls"] }
+
+[profile.release]
+opt-level = 2
